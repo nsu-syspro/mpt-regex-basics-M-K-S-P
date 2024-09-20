@@ -1,1 +1,1 @@
-cat ./data/pushkin.txt | grep " Пугачев[\.;, ]" -o | wc -w
+cat ./data/pushkin.txt | grep "Пугачев[\. \);,\?!]" -o | wc -w
