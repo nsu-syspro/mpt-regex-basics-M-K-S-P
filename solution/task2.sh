@@ -1,1 +1,1 @@
-cat ./data/pushkin.txt | grep " вина[\.;, ]*" -o | wc -w
+cat ./data/pushkin.txt | grep " [вВ]ина[\.;, ]" -o | wc -w
